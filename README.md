@@ -14,6 +14,7 @@
 |   └──config
 |   |   └──mosquitto.conf      #fichier demandé
 |   └──data
+|   |   └──mosquitto.db        #la database
 |   └──log               
 ├── scripts/
 |   └──scripts.sh                       
