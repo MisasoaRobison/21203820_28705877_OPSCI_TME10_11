@@ -3,15 +3,22 @@
 **21203820- Misasoa ROBISON**
 # TME 10 - 11 OPSCI: Internet des objets
 
+
+## Arborescence du dépôt Git
+
 ```
 .
-├── Dockerfile                  Image personnalisée pour Strapi
-├── opsci-strapi-frontend/      # Frontend React
-├── data/                       # Fichiers CSV (products, events, stocks)
+├── Images/                    # images utilisées pour illustration
+|   └──Screen              
+├── mosquitto/ 
+|   └──config
+|   |   └──mosquitto.conf      #fichier demandé
+|   └──data
+|   └──log               
+├── scripts/
+|   └──scripts.sh                       
 ├── docker-compose.yml          # Configuration des services Docker                  
-├── scripts/                    # Scripts de gestion de l’infrastructure
-│   ├── start.sh
-│   └── stop.sh
+├── Dockerfile
 └── README.md                   # Ce fichier
 ```
 ## Installation
